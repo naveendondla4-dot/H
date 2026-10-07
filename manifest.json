@@ -1,0 +1,18 @@
+{
+  "name": "Animated Heart",
+  "short_name": "Heart",
+  "description": "A beautiful animated love page.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#08040d",
+  "theme_color": "#120817",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

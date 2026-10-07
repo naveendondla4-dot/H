@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#120817">
+  <meta name="description" content="A beautiful animated love page.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon.svg">
+  <link rel="stylesheet" href="style.css">
+  <title>Animated Heart ♥</title>
+</head>
+<body>
+  <main class="stage" aria-label="Animated love page">
+    <div class="stars" aria-hidden="true"></div>
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+
+    <button class="install-btn" id="installBtn" hidden aria-label="Install this app">
+      <span>⇩</span> Install
+    </button>
+
+    <button class="music-btn" id="musicBtn" aria-label="Toggle ambient music">
+      ♪
+    </button>
+
+    <section class="hero">
+      <p class="eyebrow">A little something from the heart</p>
+
+      <div class="heart-wrap" aria-hidden="true">
+        <div class="heart"></div>
+        <div class="heart-ring ring-1"></div>
+        <div class="heart-ring ring-2"></div>
+        <div class="heart-spark s1">✦</div>
+        <div class="heart-spark s2">✧</div>
+        <div class="heart-spark s3">♥</div>
+      </div>
+
+      <h1><span id="nameOne">Harsha</span> <span class="heart-symbol">♥</span> <span id="nameTwo">Tejeswini</span></h1>
+      <p class="subtitle" id="message">
+        Some people make ordinary moments feel extraordinary.
+      </p>
+
+      <button class="reveal-btn" id="revealBtn">
+        <span>Open my heart</span>
+        <span class="arrow">↓</span>
+      </button>
+    </section>
+
+    <section class="letter" id="letter" aria-hidden="true">
+      <div class="letter-card">
+        <span class="mini-heart">♥</span>
+        <h2>For you</h2>
+        <p id="letterText">
+          You are one of those beautiful reasons that makes a normal day feel special.
+          Keep smiling, keep shining, and remember that you are deeply appreciated.
+        </p>
+        <div class="signature">With love, <span id="signature">Always</span> ♥</div>
+      </div>
+    </section>
+
+    <footer>Made with <span>♥</span> and a little bit of magic</footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
